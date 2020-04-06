@@ -1,0 +1,30 @@
+<%- include ('templates/header'); -%>
+
+        
+        <nav>
+            <hr width="50%" />
+            <a href="index.ejs"><b>Home</b></a>
+            <a href="dec.ejs">Decimal</a>
+            <a href="binary.ejs">Binary</a>
+            <a href="hexa.ejs">Hexa-Decimal</a>
+            <a href="ref.ejs">References</a>
+        </nav>
+        
+        <%- include ('templates/faker'); -%>
+        
+        
+        <br /><br />
+        <img src="img/nosystems.png" alt="table" style="max-width:50%;" class="ribbon" />
+        <main>   
+            
+            <div id="bText">
+                <p>As we know, computers do not understand low-level languages we use (i.e English), so the computer translates them into numbers. The computer understands the digits by determining the positions they occupy in the number.</p>
+                <p>Decimal number system is the most common number system. Other popular number systems include binary number system, octal number system, hexadecimal number system, etc.</p>
+                
+            </div>
+        </main>
+        
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+
+        <%- include ('templates/footer'); -%>

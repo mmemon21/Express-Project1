@@ -1,0 +1,38 @@
+<%- include ('templates/header'); -%>
+
+<header>
+        </nav>
+        </header>
+        
+        <nav>
+            <hr width="50%" />
+            <a href="index.ejs">Home</a>
+            <a href="dec.ejs">Decimal</a>
+            <a href="binary.ejs">Binary</a>
+            <a href="hexa.ejs"><b>Hexa-Decimal</b></a>
+            <a href="ref.ejs">References</a>
+        
+        
+        <br /><br />
+        <img src="img/hexa.jpg" alt="hexa decimal" style="max-width:50%;" class="ribbon">
+        <main>
+            <figure id="me">
+            </figure>    
+            
+            <div id="bText">
+            	<h3><b>Hexa-Decimal Number System</b></h3>
+                <p> hexadecimal is a positional system that represents numbers using a base of 16. Unlike the common way of representing numbers with ten symbols, it uses sixteen distinct symbols, most often the symbols "0"–"9" to represent values zero to nine, and "A"–"F" to represent values ten to fifteen. Each Hexadecimal number can be  represented in four bits in binary. Hence, it is a convenient way to express binary numbers in modern computers.</p>
+                <h2><b>- Conversion from Hexa-Decimal to Decimal</b></h2>
+                <p>1. Assign each hexadecimal value an index starting from the last in the right at 0 and keep increasing it as you go to the left.<br>
+                2. Take the bases as powers of 16 and solve them as shown.<br>
+                3. Add them together to get a decimal value.<br></p>
+
+				<h2><b>- Conversion from Hexa-Decimal to Binary</b></h2>
+				<p>Converting Hexa-Decimal: 0xFE
+                1. Again think in groups of 4. <br>
+                2. F or 15 -> 1111 & E or 14 -> 1110 <br>
+                3. => 0b 1111 1110</p>
+                
+            </div>
+        </main>
+                 <%- include ('templates/footer'); -%>
